@@ -3,7 +3,7 @@ Projekts,
 
 ![Apģērbs](https://user-images.githubusercontent.com/129928522/235177587-9a39e6fe-77ea-47e4-9364-c87bad1cfb7a.png)
 ## Veicamo darbu saraksts:
-- [ ] Izdomājiet ideju, atrodiet piemērus, atrast attēlus
+- [x] Izdomājiet ideju, atrodiet piemērus, atrast attēlus
 - [ ] Pielietojot teksta ievades laukus (2.gab.) iespējams ievadīt apģērbjamā tēla vārdu un vecumu
 (šajā laukā iespējams ievadīt tikai skaitļus), pogas nospiešana nodrošina ievadīto vērtību
 attēlošanu teksta laukā (Piemēram: „Supervaronis Oskars ir 19 gadus vecs!”)
