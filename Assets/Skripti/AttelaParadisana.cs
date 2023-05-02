@@ -5,59 +5,66 @@ using UnityEngine.UI;
 
 public class AttelaParadisana : MonoBehaviour {
 
-    public GameObject kleita1;
-	public GameObject kleita2;
-	public GameObject kleita3;
+    public GameObject svarki;
+    public GameObject svarkipng;
+    public GameObject svarkiMainitPlatumu;
+    public GameObject svarkiMainitAugstumu;
+    public GameObject apavi;
+    public GameObject apavipng;
+    public GameObject apaviMainitPlatumu;
+    public GameObject apaviMainitAugstumu;
+    public GameObject krekli;
+    public GameObject kreklipng;
+    public GameObject krekliMainitPlatumu;
+    public GameObject krekliMainitAugstumu;
+    public GameObject bikses;
+    public GameObject biksespng;
+    public GameObject biksesMainitPlatumu;
+    public GameObject biksesMainitAugstumu;
+    public GameObject mati;
+    public GameObject matipng;
+    public GameObject matiMainitPlatumu;
+    public GameObject matiMainitAugstumu;
+    public GameObject kleitas;
+    public GameObject kleitapng;
+    public GameObject kleitasMainitPlatumu;
+    public GameObject kleitasMainitAugstumu;
 
-	public GameObject s1;
-	public GameObject s2;
-	public GameObject s3;
-
-	public GameObject b1;
-	public GameObject b2;
-	public GameObject b3;
-
-	public GameObject k1;
-	public GameObject k2;
-	public GameObject k3;
-
-	public GameObject apavi1;
-	public GameObject apavi2;
-	public GameObject apavi3;
-
-	public GameObject mati1;
-	public GameObject mati2;
-	public GameObject mati3;
-
-	public void kleitas(bool vertiba) {
-        kleita1.SetActive(vertiba);
-		kleita2.SetActive(vertiba);
-		kleita3.SetActive(vertiba);
+    public void kleitasPar(bool vertiba) {
+        kleitas.SetActive(vertiba);
+        kleitapng.SetActive(vertiba);
+        kleitasMainitAugstumu.SetActive(vertiba);
+        kleitasMainitPlatumu.SetActive(vertiba);
     }
-    public void svarki(bool vertiba) {
-        s1.SetActive(vertiba);
-		s2.SetActive(vertiba);
-		s3.SetActive(vertiba);
+    public void svarkiPar(bool vertiba) {
+        svarki.SetActive(vertiba);
+        svarkipng.SetActive(vertiba);
+        svarkiMainitAugstumu.SetActive(vertiba);
+        svarkiMainitPlatumu.SetActive(vertiba);
     }
-	public void krekli(bool vertiba) {
-        k1.SetActive(vertiba);
-		k2.SetActive(vertiba);
-		k3.SetActive(vertiba);
+	public void krekliPar(bool vertiba) {
+        krekli.SetActive(vertiba);
+        kreklipng.SetActive(vertiba);
+        krekliMainitAugstumu.SetActive(vertiba);
+        krekliMainitPlatumu.SetActive(vertiba);
     }
-	public void bikses(bool vertiba) {
-        b1.SetActive(vertiba);
-		b2.SetActive(vertiba);
-		b3.SetActive(vertiba);
+	public void biksesPar(bool vertiba) {
+        bikses.SetActive(vertiba);
+        biksespng.SetActive(vertiba);
+        biksesMainitAugstumu.SetActive(vertiba);
+        biksesMainitPlatumu.SetActive(vertiba);
     }
-	public void apavi(bool vertiba) {
-        apavi1.SetActive(vertiba);
-		apavi2.SetActive(vertiba);
-		apavi3.SetActive(vertiba);
+	public void apaviPar(bool vertiba) {
+        apavi.SetActive(vertiba);
+        apavipng.SetActive(vertiba);
+        apaviMainitAugstumu.SetActive(vertiba);
+        apaviMainitPlatumu.SetActive(vertiba);
     }
-	public void mati(bool vertiba) {
-        mati1.SetActive(vertiba);
-		mati2.SetActive(vertiba);
-		mati3.SetActive(vertiba);
+	public void matiPar(bool vertiba) {
+        mati.SetActive(vertiba);
+        matipng.SetActive(vertiba);
+        matiMainitAugstumu.SetActive(vertiba);
+        matiMainitPlatumu.SetActive(vertiba);
     }
 
 
