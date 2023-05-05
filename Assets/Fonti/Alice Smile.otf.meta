@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 937e86a18fe59ea4b9c7f007ef07e7ec
+timeCreated: 1683286926
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Alice Smile
+  fontNames:
+  - Alice Smile
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

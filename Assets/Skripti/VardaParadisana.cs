@@ -9,10 +9,17 @@ public class VardaParadisana : MonoBehaviour {
 	public GameObject ievadesLauksVards;
 	public GameObject ievadesLauksVecums;
 	public GameObject tekstaAttelosana;
+	public GameObject kludasTeksts;
 
     public void UzglabatTekstu() {
 		str1 = ievadesLauksVards.GetComponent<InputField>().text;
-		str2 = int.Parse(ievadesLauksVecums.GetComponent<InputField>().text);
-		tekstaAttelosana.GetComponent<Text>().text = "Spēlētājs spēlē jaunu meiteni vārdā " + str1.ToUpper() + ". Viņa ir dzimusi "+(2023-str2)+".gadā un uzaugusi noslēpumainā, maģijas un mistērijas caurvītā salā.";
+		int parsedValue;
+    	if (!int.TryParse(ievadesLauksVecums.GetComponent<InputField>().text, out parsedValue)) {
+        	kludasTeksts.GetComponent<Text>().text = "Nepareizi ievadīts vecums!";
+        	return;
+    	}
+    	str2 = parsedValue;
+		tekstaAttelosana.GetComponent<Text>().text = "Spēlētājs spēlē meiteni vārdā " + str1.ToUpper() + ". Lai gan viņa ir dzimusi "+(2023-str2)+".gadā, viņa un viņas māsa kontrolē laiku, viņa dzīvo kopā ar māsu mūzikas kokā.";
+		kludasTeksts.GetComponent<Text>().text = "";
 	}
 }
