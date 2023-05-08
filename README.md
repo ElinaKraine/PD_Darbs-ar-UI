@@ -15,7 +15,7 @@ u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt at
 - [x] Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, pogas (tēlu) izdarītās skaņas)
 - [x] Ievietota scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
 - [x] Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu
-- [ ] Visu dekorēšanas darbu veikšana
+- [x] Visu dekorēšanas darbu veikšana
 
 
 
